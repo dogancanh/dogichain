@@ -3,7 +3,7 @@
 
 ## What is DogiChain ?
 
-DogiChain is a Java project that helps me understand blockchain technology even better. Our Block class contains a string hash that will hold our digital signature. The variable previousHash to hold the previous block’s hash and string data to hold our block data. There are many cryptographic algorithms you can choose from, but I choosed **SHA-256** for this project.
+DogiChain is a Java project that helps me understand the blockchain technology even better. Our Block class contains a string hash that will hold our digital signature. The variable previousHash to hold the previous block’s hash and string data to hold our block data. There are many cryptographic algorithms you can choose from, but I choosed **SHA-256** for this project.
 
 ![testing](https://miro.medium.com/max/700/1*I6k_gZJ0KRZYR4KU22Okig.gif)
 
