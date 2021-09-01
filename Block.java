@@ -8,5 +8,11 @@ public class Block {
         this.data = data;
         this.previousHash = previousHash;
         this.timeStamp = timeStamp;
+        this.hash = createHash();
+    }
+    public String createHash() {
+        String createHash = StringConverter.applySha256(
+            previousHash + Long.toString(timeStamp) + data);
+        return createHash;   
     }
 }
